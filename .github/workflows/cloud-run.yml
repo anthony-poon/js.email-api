@@ -4,8 +4,6 @@ name: Deploy docker image to Cloud Run
         branches:
             - main
 
-environment: GCP
-
 env:
     PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
     SERVICE_NAME: api-email
